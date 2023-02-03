@@ -64,3 +64,48 @@
         text-align: left;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .context-container {
+        // SIZE
+        &.large {
+            max-width: 365px;
+    
+            .context-title {
+                font-size: 34px;
+            }
+            .context-content {
+                font-size: 19px;
+                line-height: 32px;
+            }
+        }
+        &.normal {
+            max-width: 360px;
+    
+            .context-title {
+                font-size: 30px;
+            }
+            .context-content {
+                font-size: 19px;
+                line-height: 32px;
+            }
+        }
+        &.small {
+            max-width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            
+            .context-title {
+                font-size: 26px;
+            }
+            .context-content {
+                font-size: 18px;
+                line-height: 32px;
+            }
+        }
+
+        &.left {
+            text-align: center;
+        }
+    }
+}

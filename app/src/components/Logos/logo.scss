@@ -5,3 +5,16 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 991px) {
+    .logos-container {
+        margin: 20px auto 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & img {
+            margin-top: 80px;
+        }
+    }
+}

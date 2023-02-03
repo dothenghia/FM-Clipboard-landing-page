@@ -13,3 +13,15 @@
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 991px) {
+    #header {
+        background-image: url('../../assets/images/bg-header-mobile.png');
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 810px) {
+    #header {
+        background-size: contain;
+    }
+}

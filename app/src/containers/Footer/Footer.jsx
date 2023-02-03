@@ -10,23 +10,23 @@ const Footer = () => {
         <div id='footer'>
             <div className="container footer-container">
                 <div className="row footer-row">
-                    <div className="col-md-2">
+                    <div className="col-lg-2 footer-col">
                         <img className='footer-logo' src={logo} alt='Logo'/>
                     </div>
-                    <div className="col-md-2 footer-link">
+                    <div className="col-lg-2 footer-link">
                         <p className="footer-item">FAQs</p>
                         <p className="footer-item">Contact Us</p>
                     </div>
-                    <div className="col-md-2 footer-link">
+                    <div className="col-lg-2 footer-link">
                         <p className="footer-item">Privacy Policy</p>
                         <p className="footer-item">Press Kit</p>
                     </div>
-                    <div className="col-md-2 footer-link">
+                    <div className="col-lg-2 footer-link">
                         <p className="footer-item">Install Guide</p>
                         
                     </div>
-                    <div className="col-md-2"></div>
-                    <div className="col-md-2">
+                    <div className="col-lg-2"></div>
+                    <div className="col-lg-2 footer-icons">
                         <span className="footer-icon">
                             <img src={fb} alt="Facebook Icon" />
                         </span>

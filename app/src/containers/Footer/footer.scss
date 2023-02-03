@@ -44,3 +44,42 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    #footer {
+        padding-top: 60px;
+        height: auto;
+    }
+    
+    .footer {
+        &-container {
+            height: 100%;
+        }
+        &-col {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+    
+        &-logo{
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        
+        &-link {
+            height: auto;
+            padding-top: 0px;
+            text-align: center;
+        }
+        &-icons {
+            padding-top: 40px;
+            padding-bottom: 60px;
+            display: flex;
+            justify-content: center;
+        }
+        &-icon {
+            margin: 0 20px;
+        }
+    }
+}
