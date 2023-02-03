@@ -1,0 +1,66 @@
+.context {
+    &-container {
+        margin-top: 60px;
+    }
+
+    &-title {
+        font-weight: bold;
+        color: var(--dark-grayish-blue);
+    }
+
+    &-content {
+        margin-top: 16px;
+        color: var(--grayish-blue);
+    }
+}
+
+// CUSTOMIZE
+.context-container {
+    // SIZE
+    &.large {
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .context-title {
+            font-size: 48px;
+        }
+        .context-content {
+            font-size: 22px;
+            line-height: 32px;
+        }
+    }
+    &.normal {
+        max-width: 760px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .context-title {
+            font-size: 36px;
+        }
+        .context-content {
+            font-size: 19px;
+            line-height: 32px;
+        }
+    }
+    &.small {
+        max-width: 360px;
+
+        .context-title {
+            font-size: 26px;
+        }
+        .context-content {
+            font-size: 16px;
+            line-height: 32px;
+        }
+    }
+
+
+    // ALIGN
+    &.center {
+        text-align: center;
+    }
+    &.left {
+        text-align: left;
+    }
+}

@@ -1,0 +1,18 @@
+.feature {
+    &-container {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 40px;
+    }
+
+    &-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0 4px;
+
+        & img {
+            margin: 32px auto -28px;
+        }
+    }
+}

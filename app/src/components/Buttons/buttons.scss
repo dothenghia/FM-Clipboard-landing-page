@@ -1,0 +1,55 @@
+.buttons {
+    &-container {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    &-button {
+        width: 240px;
+        height: 56px;
+        margin: 0 10px;
+ 
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        user-select: none;
+
+        & span {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            border-radius: 50px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            line-height: 56px;
+
+            transform: translateY(-4px);
+            transition: transform 0.04s linear;
+        }
+
+        &__ios {
+            background-color: var(--strong-cyan-back);
+
+            & span {
+                background-color: var(--strong-cyan);
+            }
+        }
+        &__mac {
+            background-color: var(--light-blue-back);
+
+            & span {
+                background-color: var(--light-blue);
+            }
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active span {
+            transform: translateY(0px);
+        }
+    }
+}

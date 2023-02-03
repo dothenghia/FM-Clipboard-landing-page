@@ -1,0 +1,46 @@
+#footer {
+    background-color: #eee;
+    height: 150px;
+}
+
+.footer {
+    &-container {
+        height: 100%;
+    }
+    &-row {
+
+        // display: flex;
+        // justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+
+    &-logo{
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+    }
+    
+    &-link {
+        height: 150px;
+        padding-top: 36px;
+    }
+    &-item {
+        color: var(--dark-grayish-blue);
+        font-size: 18px;
+
+        &:hover {
+            color: var(--strong-cyan);
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+    &-icon {
+        margin: 0 10px;
+        &:hover {
+            filter: invert(50%) sepia(50%) saturate(133) hue-rotate(167deg) brightness(104%) contrast(97%);
+            cursor: pointer;
+            
+        }
+    }
+}

@@ -1,0 +1,44 @@
+#content {
+    margin-bottom: 160px;
+}
+
+.content {
+    &-row {
+        margin-top: 86px;
+        margin-bottom: 120px;
+        height: 580px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &-col {
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+
+    &-image__computer {
+        width: calc(100% + 5%);
+        height: 100%;
+        margin-left: -5%;
+
+        background-image: url('../../assets/images/image-computer.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: right;
+        background-position-y: center;
+    }
+    &-context1 {
+        padding-left: 100px;
+    }
+
+
+    &-image__devices {
+        height: 480px;
+        display: flex;
+        justify-content: center;
+
+        margin-top: 100px;
+        margin-bottom: 140px;
+    }
+}

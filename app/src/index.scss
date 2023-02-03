@@ -1,0 +1,19 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    // Primary
+    --strong-cyan : #26baa4;
+    --strong-cyan-back : rgb(29, 108, 96);
+    --light-blue : hsl(233, 100%, 69%);
+    --light-blue-back : hsl(233, 52%, 38%);
+
+    // Neutral
+    --dark-grayish-blue : hsl(210, 10%, 33%);
+    --grayish-blue : hsl(201, 11%, 66%);
+
+    --font-family : 'Bai Jamjuree', sans-serif;
+
+    
+}
